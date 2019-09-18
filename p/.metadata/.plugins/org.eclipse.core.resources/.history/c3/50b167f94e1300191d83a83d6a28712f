@@ -1,0 +1,20 @@
+package StringJava;
+
+public class FirstProgram {
+
+	public static void main(String[] args) {
+		String s1  = "Vivek";
+		
+		String s2 =s1.concat("Pandey");
+		
+		System.out.println(s2);
+		
+		String s3 = new String("Vivek");
+		
+		s3.concat(" Pandey")
+		
+		System.out.println(s3);
+
+	}
+
+}

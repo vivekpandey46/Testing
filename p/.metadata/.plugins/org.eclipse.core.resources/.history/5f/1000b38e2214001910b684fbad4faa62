@@ -1,0 +1,17 @@
+package SuperKeyword;
+
+public class TestCaseNo2 {
+	
+	public void method()
+	{
+		System.out.println("Child class Method");
+	}
+
+	public static void main(String[] args) {
+		
+		TestCaseNo2 t2 = new TestCaseNo2();
+		t2.method();
+
+	}
+
+}

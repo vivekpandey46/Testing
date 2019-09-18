@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.robotframework.ide.robotLaunchConfiguration">
+<booleanAttribute key="Exclude option enabled" value="false"/>
+<listAttribute key="Excluded tags"/>
+<stringAttribute key="Executor" value="Python"/>
+<stringAttribute key="Executor arguments" value=""/>
+<booleanAttribute key="General purpose option enabled" value="true"/>
+<booleanAttribute key="Include option enabled" value="false"/>
+<listAttribute key="Included tags"/>
+<stringAttribute key="Interpreter arguments" value=""/>
+<stringAttribute key="Project name" value="MavenSelenium"/>
+<stringAttribute key="Remote debug host" value=""/>
+<mapAttribute key="Test suites"/>
+</launchConfiguration>

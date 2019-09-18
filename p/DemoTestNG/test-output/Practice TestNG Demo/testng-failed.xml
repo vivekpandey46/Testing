@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Practice TestNG Demo]">
+  <test thread-count="5" name="TestNG Demo(failed)">
+    <classes>
+      <class name="TestNG.TimeOutTestNgDemo">
+        <methods>
+          <include name="timeout"/>
+        </methods>
+      </class> <!-- TestNG.TimeOutTestNgDemo -->
+    </classes>
+  </test> <!-- TestNG Demo(failed) -->
+</suite> <!-- Failed suite [Practice TestNG Demo] -->

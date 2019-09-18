@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+
+public class String_Reverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 Scanner in = new Scanner(System.in);
+		 System.out.println("Enter a string: ");
+		 
+		 String str = in.nextLine();
+		
+		 System.out.println("String is" +str);
+		 int i = str.length();
+		
+		StringBuffer strb = new StringBuffer();
+		
+		for( int j=i-1; j>=0; j--)
+		{
+		strb = strb.append(str.charAt(j));
+		}
+		
+		System.out.println(strb);
+		}
+	
+
+}

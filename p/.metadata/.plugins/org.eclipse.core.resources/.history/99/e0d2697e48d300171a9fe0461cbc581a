@@ -1,0 +1,16 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class EnterAction {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FirefoxDriver driver=new FirefoxDriver();
+		driver.findElement(By.id("https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=-sAbWursEIXy8Af01Z7QDQ")).sendKeys(Keys.RETURN);
+		
+	}
+
+}

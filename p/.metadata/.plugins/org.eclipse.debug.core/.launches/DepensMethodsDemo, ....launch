@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DemoTestNG"/>
+<mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS">
+<mapEntry key="TestNG.DemoTestNG" value="AfterMthod;test1;AfterTest;BeforeSuite;BeforeClass;BeforeMthods;test2;tes3;BeforeTest;AfterClass;AfterSuite"/>
+<mapEntry key="TestNG.DepensMethodsDemo" value="DepndsMethod1;DependsMethods"/>
+<mapEntry key="TestNG.InvocationCountDemo" value="Invocation"/>
+<mapEntry key="TestNG.SkipTestNGDemo" value="SkipDemo1;SkipDemo"/>
+<mapEntry key="TestNG.TimeOutTestNgDemo" value="timeout"/>
+</mapAttribute>
+<listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+<listEntry value="TestNG.InvocationCountDemo"/>
+<listEntry value="TestNG.DemoTestNG"/>
+<listEntry value="TestNG.TimeOutTestNgDemo"/>
+<listEntry value="TestNG.DepensMethodsDemo"/>
+<listEntry value="TestNG.SkipTestNGDemo"/>
+</listAttribute>
+<listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+<listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+<stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+<intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

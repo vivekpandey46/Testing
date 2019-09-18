@@ -1,0 +1,42 @@
+package Practice1;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class Cls {
+
+	public static void main(String[] args) {
+	
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		
+		al.add(9);
+		al.add(4);
+		al.add(2);
+		al.add(5);
+		
+		Iterator itr= al.iterator();
+		
+		while (itr.hasNext())
+		{
+			System.out.println(itr.next());
+			
+			
+		}
+		
+		System.out.println("---------------------------");
+		
+		Collections.sort(al);
+		
+		Iterator itr1= al.iterator();
+		
+		while (itr1.hasNext())
+		{
+			System.out.println(itr1.next());
+			
+			
+		}
+		
+	}
+
+}

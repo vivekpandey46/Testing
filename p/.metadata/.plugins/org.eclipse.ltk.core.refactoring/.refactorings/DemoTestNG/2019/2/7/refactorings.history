@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;TestNG.DataProvider.java&apos; to &apos;DataProviderTest.java&apos;&#x0D;&#x0A;- Original project: &apos;DemoTestNG&apos;&#x0D;&#x0A;- Original element: &apos;TestNG.DataProvider.java&apos;&#x0D;&#x0A;- Renamed element: &apos;TestNG.DataProviderTest.java&apos;" description="Rename compilation unit &apos;DataProvider.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;TestNG{DataProvider.java" name="DataProviderTest.java" references="false" stamp="1550139808093" version="1.0"/>
+</session>

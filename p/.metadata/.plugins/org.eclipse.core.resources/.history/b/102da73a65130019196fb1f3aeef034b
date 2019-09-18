@@ -1,0 +1,21 @@
+package ExceptionHandeling;
+
+public class Throw extends Exception{
+
+	public static void m1(int i)
+	{
+		if(i<12)
+		{
+			throw new Exp1 ("Not valid number");
+		}
+		else {
+			System.out.println("Wel Come to else condition");
+		}
+	}
+	public static void main(String[] args) {
+	
+		m1(10);
+
+	}
+
+}

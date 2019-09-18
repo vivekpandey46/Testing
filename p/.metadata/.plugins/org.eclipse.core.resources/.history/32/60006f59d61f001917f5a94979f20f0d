@@ -1,0 +1,54 @@
+package excelRead;
+
+import java.util.Iterator;
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+
+@Test
+public class WindowPopup {
+
+				System.setProperty("webdriver.chrome.driver", "D://Driver//chromedriver.exe");
+				WebDriver driver = new ChromeDriver();
+				
+				driver.get("http://www.popuptest.com/goodpopups.html");
+				
+				driver.manage().window().maximize();
+				
+				driver.findElement(By.xpath("//a[@class='black']")).click();
+				
+				Set<String> handler = driver.getWindowHandles();
+				
+				Iterator<String> it = handler.iterator();
+				
+				String parent = it.next();
+				System.out.println(parent);
+				
+				String child = it.next();
+				
+				System.out.println(child);
+				
+				
+//				driver.switchTo().window(parent);
+				driver.switchTo().window(child);
+				
+				String title = driver.getTitle();
+				
+//				 Assert.assertEquals(title, "PopupTest Thursday January, 24 2019");
+				 
+				 Assert.assertEquals("PopupTest Thursday January, 24 201", title, "Working");
+				 
+				 
+				
+	
+		}
+
+		
+
+//	}
+
